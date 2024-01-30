@@ -7,6 +7,7 @@ const app = express();
 const port = 3000;
 
 app.use(bodyParser.json());
+
 mongoose.connect('mongodb+srv://matheusguilhermediresto10:Determinacao-0246@cluster0.nvqn3wq.mongodb.net/?retryWrites=true&w=majority');
 
 
