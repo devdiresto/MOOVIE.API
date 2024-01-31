@@ -1,17 +1,3 @@
-import java.io.*;
-import java.util.*;
-
-public class Solution {
-
-    public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-    }
-
-    @Override
-    public String toString() {
-        return "Solution []";
-    }
-}
 class SinglyLinkedListNode {
     int data;
     SinglyLinkedListNode next;
@@ -36,14 +22,13 @@ public class Solution {
             hare = hare.next.next;
 
             if (tortoise == hare) {
-                return true; // 
-            }
+                return true; 
         }
 
-        return false;
+        return false; 
     }
 
-    
+   
     public static void main(String[] args) {
         SinglyLinkedListNode node1 = new SinglyLinkedListNode(1);
         SinglyLinkedListNode node2 = new SinglyLinkedListNode(2);
@@ -51,7 +36,7 @@ public class Solution {
 
         node1.next = node2;
         node2.next = node3;
-        node3.next = node1; // Cria um ciclo
+        node3.next = node1; 
 
         boolean result = hasCycle(node1);
         System.out.println(result); 
