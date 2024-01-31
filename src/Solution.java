@@ -1,4 +1,4 @@
-class SinglyLinkedListNode {
+class SinglyLinkedListNode { // LINK DO DESAFIO https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle/problem
     int data;
     SinglyLinkedListNode next;
 
